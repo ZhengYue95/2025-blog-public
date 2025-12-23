@@ -11,18 +11,5 @@
     "summary": "用 GitHub Desktop 进行同步上游等操作是比较方便的选择，以下整理了下，以便操作查看。",
     "hidden": false,
     "category": "开源"
-  },
-  {
-    "slug": "liquid-grass",
-    "title": "好玩的液态玻璃",
-    "tags": [
-      "液态玻璃",
-      "ios"
-    ],
-    "date": "2025-11-21T08:00",
-    "summary": "很简单就能实现这个液态玻璃效果，真棒",
-    "cover": "/blogs/liquid-grass/0e7190ecaedc4930.png",
-    "hidden": false,
-    "category": ""
   }
 ]
