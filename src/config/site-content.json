@@ -66,5 +66,13 @@
 	"clockShowSeconds": true,
 	"summaryInContent": false,
 	"isCachePem": false,
-	"hideEditButton": false
+	"hideEditButton": false,
+	"enableCategories": true,
+	"currentHatIndex": 3,
+	"hatFlipped": false,
+	"enableChristmas": true,
+	"beian": {
+		"text": "",
+		"link": ""
+	}
 }

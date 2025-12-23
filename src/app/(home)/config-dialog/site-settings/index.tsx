@@ -7,6 +7,8 @@ import { SiteMetaForm } from './site-meta-form'
 import { ArtImagesSection } from './art-images-section'
 import { BackgroundImagesSection } from './background-images-section'
 import { SocialButtonsSection } from './social-buttons-section'
+import { HatSection } from './hat-section'
+import { BeianForm } from './beian-form'
 
 export type { FileItem, ArtImageUploads, BackgroundImageUploads, SocialButtonImageUploads } from './types'
 
@@ -44,6 +46,8 @@ export function SiteSettings({
 			<FaviconAvatarUpload faviconItem={faviconItem} setFaviconItem={setFaviconItem} avatarItem={avatarItem} setAvatarItem={setAvatarItem} />
 
 			<SiteMetaForm formData={formData} setFormData={setFormData} />
+
+			<BeianForm formData={formData} setFormData={setFormData} />
 
 			<SocialButtonsSection
 				formData={formData}
@@ -89,7 +93,7 @@ export function SiteSettings({
 						onChange={e => setFormData({ ...formData, hideEditButton: e.target.checked })}
 						className='accent-brand h-4 w-4 rounded'
 					/>
-					<span className='text-sm font-medium'>隐藏编辑按钮（页面编辑快捷键 ctrl/cmd + ,）</span>
+					<span className='text-sm font-medium'>隐藏编辑按钮（编辑快捷键 ctrl/cmd + ,）</span>
 				</label>
 			</div>
 			<div className='flex gap-3'>
@@ -102,7 +106,27 @@ export function SiteSettings({
 					/>
 					<span className='text-sm font-medium'>缓存PEM(已加密，但存在风险)</span>
 				</label>
+				<label className='flex items-center gap-2'>
+					<input
+						type='checkbox'
+						checked={formData.enableCategories ?? false}
+						onChange={e => setFormData({ ...formData, enableCategories: e.target.checked })}
+						className='accent-brand h-4 w-4 rounded'
+					/>
+					<span className='text-sm font-medium'>启用文章分类</span>
+				</label>
+				<label className='flex items-center gap-2'>
+					<input
+						type='checkbox'
+						checked={formData.enableChristmas ?? false}
+						onChange={e => setFormData({ ...formData, enableChristmas: e.target.checked })}
+						className='accent-brand h-4 w-4 rounded'
+					/>
+					<span className='text-sm font-medium'>开启圣诞节</span>
+				</label>
 			</div>
+
+			<HatSection formData={formData} setFormData={setFormData} />
 		</div>
 	)
 }
