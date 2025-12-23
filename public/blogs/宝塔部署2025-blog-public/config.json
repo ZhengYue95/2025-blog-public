@@ -6,7 +6,7 @@
     "部署Next.js"
   ],
   "date": "2025-12-23T21:15",
-  "summary": "用 GitHub Desktop 进行同步上游等操作是比较方便的选择，以下整理了下，以便操作查看。",
+  "summary": "2025-blog-public宝塔部署+Webhook 实现自动更新",
   "hidden": false,
   "category": "开源"
 }
