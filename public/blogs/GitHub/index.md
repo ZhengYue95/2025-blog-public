@@ -3,7 +3,7 @@
 - 在GitHub上fork仓库 `YYsuni/2025-blog-public`
 - 准备好自定义域名（已完成解析到VPS公网IP）
 ---
-### 1.  **宝塔面板**  添加Git部署并设置webhook自动更新
+### 1.  宝塔面板添加Git部署并设置webhook自动更新
 #1.1 Git部署
 1. 打开宝塔面板，左侧导航栏选择「网站」→ 「PHP项目」→ 「添加站点」，勾选「Git部署」选项；填写域名后，复制页面中的「SSHkey」。![](/blogs/GitHub/b15ac718b5c4b61f.png)
 2. 打开GitHub设置页面 https://github.com/settings/keys  进入「SSH and GPG keys」→ 「New SSH key」。![](/blogs/GitHub/68beaa789f53d487.png)
