@@ -32,7 +32,7 @@
 			"url": "/images/art/a46372ff45bc5524.jpg"
 		}
 	],
-	"currentArtImageId": "cat",
+	"currentArtImageId": "a46372ff45bc5524",
 	"backgroundImages": [
 		{
 			"id": "",
@@ -66,9 +66,9 @@
 	"clockShowSeconds": true,
 	"summaryInContent": false,
 	"isCachePem": false,
-	"hideEditButton": false,
+	"hideEditButton": true,
 	"enableCategories": true,
-	"currentHatIndex": 22,
+	"currentHatIndex": 20,
 	"hatFlipped": false,
 	"enableChristmas": true,
 	"beian": {
