@@ -14,8 +14,7 @@
 1. 打开  设置  Git管理  仓库  部署脚本  
 ```bash
 pnpm i
-pnpm run docs:build
-\cp -r .vitepress/dist dist
+pnpm run build
 ```
 ![](/blogs/GitHub/b146b165d7d8a8d7.png)
 2. 打开 https://github.com/你的用户名/2025-blog-public/settings/hooks/new  ![](/blogs/GitHub/0f7b5f278ea2a01d.png)
@@ -51,6 +50,6 @@ pnpm run docs:build
 ---
 ### 关键注意事项
 1.  端口放行：确保宝塔防火墙及VPS安全组已开放80（HTTP）、443（HTTPS）、2025（项目端口）。
-2.  生产环境优化：开发模式启动命令（next dev）适合调试，生产环境建议改为「start:next start -p 2025」，在项目「设置」→ 「启动选项」中修改后重启。
+2.  生产环境优化：开发模式启动命令（next dev）适合调试，生产环境建议改为「start:next start」，在项目「设置」→ 「启动选项」中修改后重启。
 3.  域名备案：国内VPS需完成域名备案，否则无法通过80/443端口正常访问。
 4.  模块安装失败：若一键安装模块失败，可进入项目根目录，通过宝塔「终端」执行npm install手动安装。
