@@ -46,13 +46,6 @@
 			"type": "github",
 			"value": "https://github.com/zhengyue95",
 			"label": "Github",
-			"order": 3
-		},
-		{
-			"id": "juejin",
-			"type": "wechat",
-			"value": "/images/social-buttons/b1e2c2d8de3f86bb.png",
-			"label": "稀土掘金",
 			"order": 2
 		},
 		{
