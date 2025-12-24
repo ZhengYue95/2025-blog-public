@@ -20,16 +20,16 @@
 		"height": 132,
 		"offset": 92,
 		"order": 4,
-		"offsetX": 210,
-		"offsetY": -262,
+		"offsetX": 231,
+		"offsetY": -269,
 		"enabled": true
 	},
 	"calendarCard": {
 		"width": 350,
 		"height": 286,
 		"order": 5,
-		"offsetX": 198,
-		"offsetY": -93,
+		"offsetX": 226,
+		"offsetY": -98,
 		"enabled": true
 	},
 	"musicCard": {
@@ -37,8 +37,8 @@
 		"height": 66,
 		"offset": 120,
 		"order": 6,
-		"offsetX": 212,
-		"offsetY": 225,
+		"offsetX": 225,
+		"offsetY": 224,
 		"enabled": true
 	},
 	"socialButtons": {

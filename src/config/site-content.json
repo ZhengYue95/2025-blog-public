@@ -56,6 +56,20 @@
 			"value": "yzxbbzy1@gmail.com",
 			"label": "",
 			"order": 1
+		},
+		{
+			"id": "button-1766552067800",
+			"type": "wechat",
+			"value": "",
+			"label": "",
+			"order": 3
+		},
+		{
+			"id": "button-1766552072308",
+			"type": "qq",
+			"value": "",
+			"label": "",
+			"order": 4
 		}
 	],
 	"clockShowSeconds": true,
