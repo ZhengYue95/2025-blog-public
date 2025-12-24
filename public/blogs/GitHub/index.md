@@ -11,7 +11,7 @@
 4. 回到宝塔的Git部署设置页面，「仓库地址」填入你fork后的仓库地址：https://github.com/你的用户名/2025-blog-public.git 点击「自动获取分支」。![](/blogs/GitHub/72c8a1a1e85dcdb3.png)
 5. 分支选择「main」，点击「确定部署」完成Git关联
 #1.2 Webhook自动更新
-1. 打开  设置  Git管理  仓库  部署脚本  
+1. 打开  设置  Git管理  仓库  部署脚本  (感谢 明日林然 大佬指正)
 ```bash
 pnpm i
 pnpm run build
@@ -27,7 +27,7 @@ pnpm run build
 1. 进入宝塔面板「软件商店」，搜索「Node.js版本管理器」，安装「v20.19.6 稳定版」（若列表中没有，点击右上角更新版本列表）。![](/blogs/GitHub/c90641d6dd0d332e.png)
 2. 左侧导航栏选择「网站」→ 顶部切换到「Node项目」→ 「添加项目」。![](/blogs/GitHub/f98cd5c1fa39e799.png)
 3. 「项目目录」选择第一步添加的PHP项目根目录（示例：/www/wwwroot/blog.4321.love），项目名称会自动填充，无需修改。![](/blogs/GitHub/9e50db456233ef76.png)
-4. 「启动选项」会自动获取为「dev:next dev -- turbopack -p 2025」，保持默认即可。
+4. 「启动选项」会自动获取开发环境「dev:next dev -- turbopack -p 2025」，改为生产环境「start:next start」即可。
 5. 「Node版本」选择刚安装的「v20.19.6」，点击「确定」。
 6. 找到刚创建的Node项目，点击进入「设置」页面。![](/blogs/GitHub/ba8fc1426283e29a.png)
 7. 左侧选择「模块管理」，点击「一键安装项目模块」，等待安装完成后，返回项目列表，点击「状态」→ 「运行」启动项目。![](/blogs/GitHub/df74385160fc070c.png)
